@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Pasta de imagens temporárias
+inserir/
+!inserir/README.md
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Netlify
+.netlify/

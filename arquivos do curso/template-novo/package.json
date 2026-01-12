@@ -1,0 +1,22 @@
+{
+  "name": "metodo-zero-projeto",
+  "version": "1.0.0",
+  "description": "Landing page criada com Método Zero",
+  "scripts": {
+    "predev": "npm run build",
+    "dev": "netlify dev",
+    "build": "npm run build:css && npm run build:html && npm run build:assets",
+    "build:css": "tailwindcss -i ./src/css/input.css -o ./dist/css/output.css --minify",
+    "build:html": "node scripts/build-html.js",
+    "build:assets": "node scripts/build-assets.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19",
+    "html-minifier-terser": "^7.2.0",
+    "gsap": "^3.14.2",
+    "three": "^0.182.0",
+    "lucide-static": "^0.562.0",
+    "netlify-cli": "^23.13.3"
+  },
+  "dependencies": {}
+}

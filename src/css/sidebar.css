@@ -1,0 +1,166 @@
+/* Sidebar Navigation - Typewriter Style */
+#sidebar-nav {
+    position: fixed;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+    /* Container sizing */
+    height: 60vh;
+    max-height: 500px;
+    width: auto;
+    max-width: 80px;
+
+    /* Scrollable content */
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    /* Transitions */
+    transition: max-width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* Decoration */
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#sidebar-nav:hover {
+    max-width: 300px;
+    padding-right: 40px;
+    overflow-y: auto;
+}
+
+/* Custom scrollbar */
+#sidebar-nav::-webkit-scrollbar {
+    width: 4px;
+}
+
+#sidebar-nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#sidebar-nav::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+#sidebar-nav:hover::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Inner wrapper for centering */
+.sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sidebar-item {
+    cursor: pointer;
+    /* Grid overlap strategy */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: start;
+
+    /* Container sizing */
+    height: 14px;
+    flex-shrink: 0;
+}
+
+/* 
+    MORPH LOGIC:
+    Row 1, Col 1 contains BOTH the line and the text.
+    They sit on top of each other.
+    We just fade one out and the other in.
+*/
+
+/* 1. THE LINE (Indicator) */
+.sidebar-item::before {
+    content: '';
+    grid-area: 1 / 1 / 2 / 2;
+    display: block;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+
+    /* Transitions */
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Line Sizes */
+.sidebar-item[data-level='slide']::before {
+    width: 12px;
+}
+
+.sidebar-item[data-level='lesson']::before {
+    width: 24px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.sidebar-item[data-level='module']::before {
+    width: 36px;
+    background: var(--accent-glow);
+    height: 5px;
+}
+
+/* Active State (Line) */
+.sidebar-item.active::before {
+    background: white;
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+.sidebar-item[data-level='module'].active::before {
+    background: var(--accent-glow);
+    width: 42px;
+}
+
+/* 2. THE TEXT (Label) */
+.sidebar-tooltip {
+    grid-area: 1 / 1 / 2 / 2;
+    white-space: nowrap;
+
+    /* Initial Hidden State */
+    opacity: 0;
+    transform: translateX(-10px);
+
+    /* Font Styles */
+    font-size: 0.85rem;
+    line-height: 1;
+    font-family: var(--font-primary);
+    color: var(--text-muted);
+    pointer-events: none;
+
+    /* Transitions */
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* HOVER STATE (Container) triggers Morph */
+
+#sidebar-nav:hover .sidebar-item::before {
+    opacity: 0;
+    transform: scaleX(0.5);
+}
+
+#sidebar-nav:hover .sidebar-tooltip {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+    transition-delay: 0.1s;
+}
+
+/* Text Active Styles */
+#sidebar-nav:hover .sidebar-item.active .sidebar-tooltip {
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 0 15px var(--accent-glow);
+}
+
+#sidebar-nav:hover .sidebar-item:hover .sidebar-tooltip {
+    color: var(--accent-glow);
+}

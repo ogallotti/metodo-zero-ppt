@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonte será configurada pelo agente durante criação do layout */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+

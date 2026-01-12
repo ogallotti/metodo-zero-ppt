@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Zero - Apresentação</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/sidebar.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { primary: ['Outfit', 'sans-serif'], mono: ['Space Mono', 'monospace'] },
+                    colors: {
+                        'accent-glow': '#bbaaff',
+                        'glass-border': 'rgba(255, 255, 255, 0.08)',
+                        'text-muted': 'rgba(255, 255, 255, 0.6)',
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="overflow-hidden bg-[#050505] text-white font-primary h-screen w-screen">
+    <div id="canvas-container"></div>
+    <div class="bg-overlay"></div>
+    <div class="brand-logo">MÉTODO ZERO</div>
+
+    <main id="presentation-container">
+
+        <!-- ═══ CAPA ═══ -->
+        <section class="slide active" data-sidebar-level="module" data-sidebar-label="Início">
+            <div class="slide-content text-center">
+                <span class="section-label">APRESENTAÇÃO DO CURSO</span>
+                <h1 class="text-[5rem] font-bold leading-none mb-6">MÉTODO ZERO</h1>
+                <p class="text-2xl text-text-muted max-w-3xl mx-auto">Do Zero ao Ar.<br>Sem código. Sem dependência. Sem
+                    limites.</p>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 0: INTRODUÇÃO ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 0">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">0</span>
+                </div>
+                <h2 class="section-title">Introdução<br>A Nova Era</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="0.1 Meu Sonho">
+            <div class="slide-content">
+                <span class="section-label">AULA 0.1</span>
+                <h2 class="section-title">Meu Sonho Realizado</h2>
+                <div class="grid grid-cols-2 gap-12 mt-8">
+                    <div class="space-y-4">
+                        <p class="text-xl text-text-muted leading-relaxed">A frustração que me levou a buscar algo
+                            diferente. Horas de testes até encontrar o método perfeito.</p>
+                        <div class="glass-card">
+                            <h3 class="font-bold mb-2">O que você vai conseguir</h3>
+                            <p class="text-text-muted">Criar páginas profissionais em horas, com controle total, sem
+                                depender de ninguém.</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="w-[300px] h-[300px] rounded-2xl overflow-hidden border border-glass-border">
+                            <img src="./src/images/instructor.jpg" alt="Vinicius Gallotti"
+                                class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="0.2 O Kit">
+            <div class="slide-content text-center">
+                <span class="section-label">AULA 0.2</span>
+                <h2 class="section-title">O Kit Método Zero</h2>
+                <p class="text-xl text-text-muted mb-8">Três ferramentas gratuitas que trabalham juntas.</p>
+                <div class="grid grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="glass-card text-center">
+                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                            <img src="./src/images/antigravity-logo.png" alt="" class="w-full h-full object-contain">
+                        </div>
+                        <h3 class="font-bold">Antigravity</h3>
+                        <p class="text-accent-glow text-sm">O Cérebro</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                            <img src="./src/images/github-logo.png" alt="" class="w-full h-full object-contain">
+                        </div>
+                        <h3 class="font-bold">GitHub</h3>
+                        <p class="text-accent-glow text-sm">A Memória</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                            <img src="./src/images/netlify-logo.png" alt="" class="w-full h-full object-contain">
+                        </div>
+                        <h3 class="font-bold">Netlify</h3>
+                        <p class="text-accent-glow text-sm">A Vitrine</p>
+                    </div>
+                </div>
+                <p class="mt-8 text-2xl font-mono">Custo para começar: <span class="text-green-400 font-bold">R$
+                        0</span></p>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="0.3 Fim de Uma Era">
+            <div class="slide-content">
+                <span class="section-label">AULA 0.3</span>
+                <h2 class="section-title">O Fim de Uma Era</h2>
+                <div class="space-y-4 max-w-4xl mt-6">
+                    <div
+                        class="flex items-start gap-4 text-xl text-text-muted/70 p-4 border border-glass-border rounded-xl">
+                        <span class="text-red-400">✗</span>
+                        <div><strong class="text-white/80">Elementor/Wix</strong> — Plugins, performance ruim,
+                            limitações</div>
+                    </div>
+                    <div
+                        class="flex items-start gap-4 text-xl text-text-muted/70 p-4 border border-glass-border rounded-xl">
+                        <span class="text-red-400">✗</span>
+                        <div><strong class="text-white/80">Figma → Dev</strong> — Gap entre design e resultado</div>
+                    </div>
+                    <div
+                        class="flex items-start gap-4 text-xl text-text-muted/70 p-4 border border-glass-border rounded-xl">
+                        <span class="text-red-400">✗</span>
+                        <div><strong class="text-white/80">Código manual</strong> — IA como acelerador torna obsoleto
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="0.4 Por Que Antigravity">
+            <div class="slide-content">
+                <span class="section-label">AULA 0.4</span>
+                <h2 class="section-title">Por Que Não é ChatGPT,<br>Lovable ou Cursor</h2>
+                <div class="grid grid-cols-2 gap-8 mt-6">
+                    <div class="space-y-3">
+                        <div class="p-4 border border-red-400/30 rounded-xl">
+                            <p class="font-bold text-red-400">ChatGPT</p>
+                            <p class="text-text-muted text-sm">Código solto, sem contexto, precisa copiar/colar</p>
+                        </div>
+                        <div class="p-4 border border-red-400/30 rounded-xl">
+                            <p class="font-bold text-red-400">Lovable</p>
+                            <p class="text-text-muted text-sm">Roleta de prompt, resultado imprevisível</p>
+                        </div>
+                        <div class="p-4 border border-red-400/30 rounded-xl">
+                            <p class="font-bold text-red-400">Cursor</p>
+                            <p class="text-text-muted text-sm">Feito para devs, curva de aprendizado alta</p>
+                        </div>
+                    </div>
+                    <div class="glass-card border-green-400/30">
+                        <p class="font-bold text-green-400 text-xl mb-4">Antigravity</p>
+                        <ul class="space-y-2 text-text-muted">
+                            <li>✓ Fluxo de agentes nos bastidores</li>
+                            <li>✓ Vê código E resultado ao mesmo tempo</li>
+                            <li>✓ Ajusta em tempo real conversando</li>
+                            <li>✓ Não precisa saber programar</li>
+                            <li>✓ Controle total sobre cada detalhe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="0.5 Visão Geral">
+            <div class="slide-content text-center">
+                <span class="section-label">AULA 0.5</span>
+                <h2 class="section-title">Os 4 Pilares</h2>
+                <div class="flex justify-center gap-4 mt-8">
+                    <div class="glass-card px-8 py-6">Ideia</div>
+                    <span class="text-2xl text-accent-glow self-center">→</span>
+                    <div class="glass-card px-8 py-6">Criação</div>
+                    <span class="text-2xl text-accent-glow self-center">→</span>
+                    <div class="glass-card px-8 py-6">Otimização</div>
+                    <span class="text-2xl text-accent-glow self-center">→</span>
+                    <div class="glass-card px-8 py-6 border-green-400/30">Publicação</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="slide" data-sidebar-label="As 10 Etapas">
+            <div class="slide-content">
+                <h2 class="section-title text-center mb-8">As 10 Etapas do Método</h2>
+                <div class="grid grid-cols-5 gap-3 max-w-5xl mx-auto text-sm">
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">1</span>Copy</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">2</span>3 Layouts</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">3</span>Página</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">4</span>Ajuste Copy</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">5</span>Ajuste Layout</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">6</span>Animações</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">7</span>Refinar Anim</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">8</span>Mobile</div>
+                    <div class="glass-card text-center p-4"><span
+                            class="block text-2xl font-bold text-accent-glow">9</span>Performance</div>
+                    <div class="glass-card text-center p-4 border-green-400/30"><span
+                            class="block text-2xl font-bold text-green-400">10</span>Publicar</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 1: ANTIGRAVITY ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 1">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">1</span>
+                </div>
+                <h2 class="section-title">Conhecendo o Antigravity</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="1.1-1.2 O Que É">
+            <div class="slide-content grid grid-cols-2 gap-12">
+                <div>
+                    <span class="section-label">AULA 1.1 & 1.2</span>
+                    <h2 class="text-3xl font-bold mb-6">O Que É o Antigravity</h2>
+                    <ul class="space-y-3 text-lg text-text-muted">
+                        <li>• IDE baseado no VS Code + IA</li>
+                        <li>• Criado pelo Google</li>
+                        <li>• Múltiplos modelos (Gemini, Claude)</li>
+                        <li>• Nível gratuito generoso</li>
+                        <li>• Interface familiar</li>
+                    </ul>
+                </div>
+                <div class="glass-card">
+                    <h3 class="font-bold text-xl mb-4">Por Que Escolhi</h3>
+                    <ul class="space-y-2 text-text-muted">
+                        <li>✓ Agentes funcionam nos bastidores</li>
+                        <li>✓ Gerenciar código sem programar</li>
+                        <li>✓ Integração com terminal e arquivos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="1.3-1.4 Interface">
+            <div class="slide-content">
+                <span class="section-label">AULA 1.3 & 1.4</span>
+                <h2 class="section-title">Interface e Setup</h2>
+                <div class="grid grid-cols-2 gap-8 mt-6">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Tour pela Interface</h3>
+                        <ul class="text-text-muted space-y-2">
+                            <li>• Explorer (arquivos)</li>
+                            <li>• Editor principal</li>
+                            <li>• Chat de IA</li>
+                            <li>• Terminal integrado</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Configurações Obrigatórias</h3>
+                        <ul class="space-y-2">
+                            <li class="text-green-400">✓ Always Proceed (IA autônoma)</li>
+                            <li class="text-green-400">✓ Acesso a pastas</li>
+                            <li class="text-red-400">✗ Acesso ao navegador (OFF)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="1.5 Rules">
+            <div class="slide-content">
+                <span class="section-label">AULA 1.5</span>
+                <h2 class="section-title">Regras do Agente (Rules)</h2>
+                <div class="grid grid-cols-2 gap-8 mt-6">
+                    <div>
+                        <p class="text-xl text-text-muted mb-6">Instruções permanentes para a IA seguir. Evitam repetir
+                            os mesmos comandos.</p>
+                        <div class="space-y-2 font-mono text-sm">
+                            <p class="p-3 bg-black/40 rounded">"Responda em PT-BR"</p>
+                            <p class="p-3 bg-black/40 rounded">"Use HTML + Tailwind CLI"</p>
+                            <p class="p-3 bg-black/40 rounded">"Fontes self-hosted .woff2"</p>
+                            <p class="p-3 bg-black/40 rounded">"GSAP para animações"</p>
+                        </div>
+                    </div>
+                    <div class="glass-card border-yellow-400/30">
+                        <h3 class="font-bold text-yellow-400 mb-4">⚠️ Importante</h3>
+                        <p class="text-text-muted">Regras não são "inquebráveis" — a IA pode ignorar em casos extremos.
+                            Mas funcionam 99% do tempo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="1.6-1.8 Uso Avançado">
+            <div class="slide-content">
+                <span class="section-label">AULAS 1.6-1.8</span>
+                <h2 class="section-title">Conversando com a IA</h2>
+                <div class="grid grid-cols-3 gap-6 mt-6">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Pedidos Claros</h3>
+                        <p class="text-text-muted text-sm">Seja específico: "na seção de depoimentos" vs "no carrossel"
+                        </p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Contexto</h3>
+                        <p class="text-text-muted text-sm">A IA tem limite de memória. Separe conversas por tema.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Pasta "inserir"</h3>
+                        <p class="text-text-muted text-sm">Coloque imagens fora do projeto para a IA usar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 2: GITHUB ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 2">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">2</span>
+                </div>
+                <h2 class="section-title">Setup do GitHub</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="2.1-2.5 GitHub">
+            <div class="slide-content">
+                <h2 class="section-title text-center mb-8">Versionamento</h2>
+                <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="glass-card">
+                        <h3 class="font-bold text-xl mb-4">Por Que Versionar</h3>
+                        <ul class="text-text-muted space-y-2">
+                            <li>• "Google Drive do código"</li>
+                            <li>• Proteção contra erros</li>
+                            <li>• Histórico de mudanças</li>
+                            <li>• Voltar versões anteriores</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold text-xl mb-4">Comandos via Chat</h3>
+                        <div class="font-mono text-sm space-y-2">
+                            <p class="p-2 bg-black/40 rounded">"Crie um repositório..."</p>
+                            <p class="p-2 bg-black/40 rounded">"Suba as alterações"</p>
+                            <p class="p-2 bg-black/40 rounded">"Volte para a versão anterior"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 3: NETLIFY ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 3">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">3</span>
+                </div>
+                <h2 class="section-title">Setup da Netlify</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="3.1-3.4 Netlify">
+            <div class="slide-content">
+                <h2 class="section-title text-center mb-8">Por Que Netlify</h2>
+                <div class="grid grid-cols-3 gap-6 max-w-5xl mx-auto">
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">💰</div>
+                        <h3 class="font-bold">Custo Zero</h3>
+                        <p class="text-text-muted text-sm">100GB bandwidth grátis</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">🌍</div>
+                        <h3 class="font-bold">CDN Global</h3>
+                        <p class="text-text-muted text-sm">Site rápido no mundo todo</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">🔒</div>
+                        <h3 class="font-bold">HTTPS Auto</h3>
+                        <p class="text-text-muted text-sm">Segurança sem configurar</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">🖼️</div>
+                        <h3 class="font-bold">Otimização</h3>
+                        <p class="text-text-muted text-sm">Imagens automáticas</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">🔄</div>
+                        <h3 class="font-bold">Sync GitHub</h3>
+                        <p class="text-text-muted text-sm">Push = Deploy automático</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <div class="text-3xl mb-3">⏪</div>
+                        <h3 class="font-bold">Rollback</h3>
+                        <p class="text-text-muted text-sm">Voltar versão instantâneo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 4: AMBIENTE LOCAL ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 4">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">4</span>
+                </div>
+                <h2 class="section-title">Ambiente Local</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="4.1-4.4 Servidor">
+            <div class="slide-content grid grid-cols-2 gap-12">
+                <div>
+                    <span class="section-label">SERVIDOR LOCAL</span>
+                    <h2 class="text-3xl font-bold mb-6">Desenvolvimento em Tempo Real</h2>
+                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                        <p class="text-text-muted mb-2"># Iniciar servidor</p>
+                        <p class="text-green-400 mb-4">$ npx netlify dev</p>
+                        <p class="text-accent-glow">→ localhost:8888</p>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <h3 class="font-bold text-xl mb-4">Testar no Celular</h3>
+                    <ol class="text-text-muted space-y-2">
+                        <li>1. Descobrir IP local (pedir ao AG)</li>
+                        <li>2. Conectar celular na mesma rede</li>
+                        <li>3. Acessar: http://seu-ip:8888</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 5: O MÉTODO ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 5">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">5</span>
+                </div>
+                <h2 class="section-title">O Método Zero<br>na Prática</h2>
+                <p class="text-xl text-text-muted">As 10 etapas para ir do zero ao ar</p>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="5.1-5.2 Primeiro Prompt">
+            <div class="slide-content">
+                <span class="section-label">O PRIMEIRO PROMPT</span>
+                <h2 class="section-title">Especificar Tecnologia</h2>
+                <div class="glass-card border-yellow-400/30 max-w-4xl mt-6">
+                    <h3 class="font-bold text-yellow-400 mb-4">⚠️ CRUCIAL</h3>
+                    <p class="text-lg text-text-muted mb-4">Se não especificar, a IA pode criar em React (desnecessário
+                        e pesado).</p>
+                    <div class="bg-black/40 p-4 rounded-lg font-mono text-sm">
+                        "Vamos criar uma landing page usando HTML, CSS e JavaScript puro, GSAP para animações, Three.js
+                        para efeitos 3D. Hospedagem na Netlify."
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Etapa 1: Copy">
+            <div class="slide-content">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                        <span class="text-xl font-bold text-accent-glow">1</span>
+                    </div>
+                    <h2 class="text-3xl font-bold">Geração da Copy</h2>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Estrutura de LP Eficaz</h3>
+                        <ol class="text-text-muted space-y-2 text-sm">
+                            <li>1. Hero (headline + CTA)</li>
+                            <li>2. Problema/Dor</li>
+                            <li>3. Solução</li>
+                            <li>4. Benefícios</li>
+                            <li>5. Prova Social</li>
+                            <li>6. FAQ</li>
+                            <li>7. CTA Final</li>
+                        </ol>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Briefing Necessário</h3>
+                        <ul class="text-text-muted space-y-2">
+                            <li>• Objetivo da página</li>
+                            <li>• Público-alvo</li>
+                            <li>• Tom de voz</li>
+                            <li>• Diferenciais</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Etapas 2-3: Layout">
+            <div class="slide-content">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                        <span class="text-xl font-bold text-accent-glow">2-3</span>
+                    </div>
+                    <h2 class="text-3xl font-bold">Layout e Página Completa</h2>
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold mb-2">Versão A</h3>
+                        <p class="text-text-muted text-sm">Clean/Minimalista</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold mb-2">Versão B</h3>
+                        <p class="text-text-muted text-sm">Visual/Impactante</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold mb-2">Versão C</h3>
+                        <p class="text-text-muted text-sm">Informativa/Completa</p>
+                    </div>
+                </div>
+                <p class="text-center text-text-muted mt-6">Escolha uma ou combine elementos de várias versões.</p>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Etapas 4-5: Ajustes">
+            <div class="slide-content">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                        <span class="text-xl font-bold text-accent-glow">4-5</span>
+                    </div>
+                    <h2 class="text-3xl font-bold">Ajustes de Copy e Layout</h2>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="glass-card border-yellow-400/30">
+                        <h3 class="font-bold text-yellow-400 mb-4">⚠️ Atenção</h3>
+                        <p class="text-text-muted">A IA pode cortar ou simplificar seu texto. Sempre compare com a copy
+                            original.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Pasta "inserir"</h3>
+                        <p class="text-text-muted text-sm">Coloque imagens na pasta "inserir" e peça: "Use a imagem X na
+                            seção Y"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Etapas 6-7: Animações">
+            <div class="slide-content">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                        <span class="text-xl font-bold text-accent-glow">6-7</span>
+                    </div>
+                    <h2 class="text-3xl font-bold">Animações</h2>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-4">Tipos</h3>
+                        <ul class="text-text-muted space-y-2">
+                            <li>• Animações de entrada (fade, slide)</li>
+                            <li>• Animações de scroll</li>
+                            <li>• Hover effects</li>
+                            <li>• Micro-interações</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card border-red-400/30">
+                        <h3 class="font-bold text-red-400 mb-4">❌ Hero Estático</h3>
+                        <p class="text-text-muted text-sm">O Hero NUNCA deve ter animações de entrada. Precisa
+                            renderizar instantaneamente (LCP).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Etapas 8-10: Final">
+            <div class="slide-content">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                        <span class="text-xl font-bold text-accent-glow">8-10</span>
+                    </div>
+                    <h2 class="text-3xl font-bold">Mobile, Performance, Publicação</h2>
+                </div>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-2">8. Mobile</h3>
+                        <p class="text-text-muted text-sm">Testar no celular real, não só no navegador.</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-2">9. Performance</h3>
+                        <p class="text-text-muted text-sm">Lighthouse 90+ em todas as métricas.</p>
+                    </div>
+                    <div class="glass-card border-green-400/30">
+                        <h3 class="font-bold text-green-400 mb-2">10. Publicar 🎉</h3>
+                        <p class="text-text-muted text-sm">Push para GitHub → Netlify atualiza automaticamente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 6: ESTRUTURA ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 6">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">6</span>
+                </div>
+                <h2 class="section-title">Estrutura de Projeto</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="6.1-6.5 Pastas">
+            <div class="slide-content grid grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Estrutura de Pastas</h2>
+                    <div class="font-mono text-lg bg-black/40 p-6 rounded-xl">
+                        <p class="text-accent-glow">src/ <span class="text-text-muted text-sm">← editar aqui</span></p>
+                        <p class="pl-4">├── index.html</p>
+                        <p class="pl-4">├── css/</p>
+                        <p class="pl-4">├── js/</p>
+                        <p class="pl-4">└── fonts/</p>
+                        <p class="text-blue-400 mt-4">dist/ <span class="text-text-muted text-sm">← auto-gerado</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <h3 class="font-bold text-xl mb-4">Múltiplas Páginas</h3>
+                    <p class="text-text-muted mb-4">Cada página é independente com seus próprios assets.</p>
+                    <p class="font-mono text-sm text-accent-glow">src/sobre/index.html → /sobre/</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULO 7: PERFORMANCE ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 7">
+            <div class="slide-content text-center">
+                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                    <span class="text-3xl font-bold text-accent-glow">7</span>
+                </div>
+                <h2 class="section-title">Otimização Avançada</h2>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="7.1-7.3 Core Web Vitals">
+            <div class="slide-content">
+                <h2 class="section-title text-center mb-8">Core Web Vitals</h2>
+                <div class="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold text-2xl text-green-400 mb-2">LCP</h3>
+                        <p class="text-text-muted text-sm">Largest Contentful Paint</p>
+                        <p class="mt-2">Velocidade de carregamento</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold text-2xl text-green-400 mb-2">INP</h3>
+                        <p class="text-text-muted text-sm">Interaction to Next Paint</p>
+                        <p class="mt-2">Interatividade</p>
+                    </div>
+                    <div class="glass-card text-center">
+                        <h3 class="font-bold text-2xl text-green-400 mb-2">CLS</h3>
+                        <p class="text-text-muted text-sm">Cumulative Layout Shift</p>
+                        <p class="mt-2">Estabilidade visual</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" data-sidebar-level="lesson" data-sidebar-label="7.4-7.9 Otimizações">
+            <div class="slide-content">
+                <h2 class="section-title text-center mb-6">Stack Otimizada</h2>
+                <div class="grid grid-cols-2 gap-6 max-w-5xl mx-auto text-sm">
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Tailwind CLI (não CDN)</h3>
+                        <p class="text-text-muted">124KB → 27KB com purge automático</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Netlify Image CDN</h3>
+                        <p class="text-text-muted">/.netlify/images?url=/images/foto.jpg&w=800</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Fontes Self-Hosted</h3>
+                        <p class="text-text-muted">.woff2 local, font-display: optional</p>
+                    </div>
+                    <div class="glass-card">
+                        <h3 class="font-bold mb-3">Lucide Icons (NPM)</h3>
+                        <p class="text-text-muted">SVGs locais em vez de Font Awesome CDN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ MÓDULOS 8-10 ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulos 8-10">
+            <div class="slide-content text-center">
+                <h2 class="section-title mb-8">Módulos Finais</h2>
+                <div class="grid grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div class="glass-card">
+                        <div
+                            class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-4">
+                            <span class="font-bold text-accent-glow">8</span>
+                        </div>
+                        <h3 class="font-bold">Deploy e Domínios</h3>
+                        <p class="text-text-muted text-sm mt-2">Domínio personalizado, HTTPS, monitoramento</p>
+                    </div>
+                    <div class="glass-card">
+                        <div
+                            class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-4">
+                            <span class="font-bold text-accent-glow">9</span>
+                        </div>
+                        <h3 class="font-bold">Manutenção</h3>
+                        <p class="text-text-muted text-sm mt-2">Troubleshooting, backup, atualizações</p>
+                    </div>
+                    <div class="glass-card">
+                        <div
+                            class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-4">
+                            <span class="font-bold text-accent-glow">10</span>
+                        </div>
+                        <h3 class="font-bold">Avançado (Bônus)</h3>
+                        <p class="text-text-muted text-sm mt-2">Formulários, webhooks, Edge Functions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ CONCLUSÃO ═══ -->
+        <section class="slide" data-sidebar-level="module" data-sidebar-label="Conclusão">
+            <div class="slide-content text-center">
+                <span class="section-label">CONCLUSÃO</span>
+                <h2 class="text-[3.5rem] font-bold leading-tight mb-8">A complexidade<br>é da IA.</h2>
+                <p class="text-3xl text-accent-glow font-medium mb-12">O potencial é seu.</p>
+                <div class="glass-card inline-block px-12 py-8 max-w-3xl">
+                    <p class="text-xl text-text-muted leading-relaxed">
+                        Com as ferramentas certas e o processo certo, qualquer pessoa pode criar
+                        páginas profissionais — sem escrever código e sem depender de ninguém.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="ui-controls">
+        <span class="slide-counter"><span id="current-slide">1</span> / <span id="total-slides">--</span></span>
+        <button id="prev-btn" class="nav-btn">←</button>
+        <button id="next-btn" class="nav-btn">→</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
