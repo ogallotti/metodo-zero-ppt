@@ -75,19 +75,20 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* Vertically center by default */
-    align-items: center;
-    /* Horizontally center by default */
-    padding: 60px;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 100px;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
     will-change: opacity, transform;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
 }
 
 .slide.active {
@@ -103,7 +104,7 @@ body {
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .slide-content>* {
@@ -132,16 +133,13 @@ body {
 }
 
 .section-title {
-    font-size: clamp(3rem, 6vw, 5rem);
+    font-size: clamp(4rem, 8vw, 7rem);
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 30px;
 }
 
-.slide-content {
-    width: 100%;
-    max-width: 1200px;
-}
+
 
 /* UI Controls */
 #ui-controls {

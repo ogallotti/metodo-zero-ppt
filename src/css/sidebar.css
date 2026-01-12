@@ -84,7 +84,8 @@
     display: block;
     height: 4px;
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    background: #333;
 
     /* Transitions */
     opacity: 1;
@@ -100,19 +101,20 @@
 
 .sidebar-item[data-level='lesson']::before {
     width: 24px;
-    background: rgba(255, 255, 255, 0.4);
+    width: 24px;
+    background: #555;
 }
 
 .sidebar-item[data-level='module']::before {
     width: 36px;
-    background: var(--accent-glow);
+    background: #777;
     height: 5px;
 }
 
 /* Active State (Line) */
 .sidebar-item.active::before {
-    background: white;
-    box-shadow: 0 0 10px var(--accent-glow);
+    background: var(--accent-glow);
+    box-shadow: 0 0 15px var(--accent-glow), 0 0 5px white;
 }
 
 .sidebar-item[data-level='module'].active::before {
@@ -133,7 +135,7 @@
     font-size: 0.85rem;
     line-height: 1;
     font-family: var(--font-primary);
-    color: var(--text-muted);
+    color: #555;
     pointer-events: none;
 
     /* Transitions */
@@ -156,9 +158,9 @@
 
 /* Text Active Styles */
 #sidebar-nav:hover .sidebar-item.active .sidebar-tooltip {
-    color: white;
-    font-weight: 600;
-    text-shadow: 0 0 15px var(--accent-glow);
+    color: var(--accent-glow);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(187, 170, 255, 0.6);
 }
 
 #sidebar-nav:hover .sidebar-item:hover .sidebar-tooltip {

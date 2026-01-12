@@ -40,6 +40,19 @@
                         'glass-border': 'rgba(255, 255, 255, 0.08)',
                         'text-muted': 'rgba(255, 255, 255, 0.85)',
                     },
+                    fontSize: {
+                        'xs': '0.9rem',
+                        'sm': '1.1rem',
+                        'base': '1.2rem',
+                        'lg': '1.4rem',
+                        'xl': '1.7rem',
+                        '2xl': '2.2rem',
+                        '3xl': '3rem',
+                        '4xl': '4rem',
+                        '5xl': '5rem',
+                        '6xl': '6rem',
+                        '7xl': '7.5rem',
+                    }
                 }
             }
         }
@@ -60,8 +73,8 @@
         <section class="slide active" data-sidebar-level="module" data-sidebar-label="Início">
             <div class="slide-content text-center">
                 <span class="section-label">APRESENTAÇÃO DO CURSO</span>
-                <h1 class="text-[5rem] font-bold leading-none mb-6">MÉTODO ZERO</h1>
-                <p class="text-2xl text-text-muted max-w-3xl mx-auto">Do Zero ao Ar.<br>Sem código. Sem dependência. Sem
+                <h1 class="text-7xl font-bold leading-none mb-6">MÉTODO ZERO</h1>
+                <p class="text-2xl text-text-muted max-w-6xl mx-auto">Do Zero ao Ar.<br>Sem código. Sem dependência. Sem
                     limites.</p>
             </div>
         </section>
@@ -72,17 +85,17 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Sobre Mim">
             <div class="slide-content">
-                <div class="grid grid-cols-2 gap-12 items-start max-w-5xl mx-auto">
-                    <div class="flex justify-center">
+                <div class="grid grid-cols-3 gap-16 items-center max-w-7xl mx-auto">
+                    <div class="col-span-1 flex justify-center">
                         <div
-                            class="w-[280px] h-[280px] rounded-full overflow-hidden border-2 border-accent-glow/30 relative shadow-2xl shadow-accent-glow/20">
+                            class="w-[400px] h-[400px] rounded-full overflow-hidden border-2 border-accent-glow/30 relative shadow-2xl shadow-accent-glow/20">
                             <img src="./src/images/instructor.jpg" alt="Vinicius Gallotti"
                                 class="w-full h-full object-cover">
                         </div>
                     </div>
-                    <div class="text-left">
-                        <h2 class="text-4xl font-bold mb-6">Vinicius Gallotti</h2>
-                        <div class="space-y-4 text-text-muted">
+                    <div class="col-span-2">
+                        <h2 class="text-3xl font-bold mb-6">Vinicius Gallotti</h2>
+                        <div class="space-y-6 text-lg text-text-muted leading-relaxed">
                             <p>Trabalho desde 2015 no digital. Já criei mais de <span class="text-white font-bold">300
                                     páginas</span> de todos os tamanhos e vendi mais de <span
                                     class="text-white font-bold">R$ 10 milhões</span> diretamente através delas.</p>
@@ -101,7 +114,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Por Que Ensino">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">O Motivo de Estar Ensinando Isso</h2>
-                <div class="glass-card max-w-3xl mx-auto">
+                <div class="glass-card max-w-6xl mx-auto">
                     <p class="text-xl text-text-muted mb-6">Nos meus <span class="text-white font-bold">10 anos nos
                             bastidores do digital</span>, trabalhando para dezenas de clientes e marcas, nunca vi uma
                         revolução tão grande como essa.</p>
@@ -120,7 +133,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 01">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">01</span>
                 </div>
                 <h2 class="section-title">Antes de Começar</h2>
@@ -133,7 +146,7 @@
             <div class="slide-content">
                 <span class="section-label">AULA 01</span>
                 <h2 class="section-title">Meu Sonho Realizado</h2>
-                <p class="text-xl text-text-muted mt-4 max-w-3xl">A história por trás do Método Zero e como ele pode
+                <p class="text-xl text-text-muted mt-4 max-w-6xl">A história por trás do Método Zero e como ele pode
                     transformar a forma como você cria páginas na internet.</p>
             </div>
         </section>
@@ -143,25 +156,25 @@
                 <h2 class="text-3xl font-bold mb-8">A Frustração Que Me Levou a Buscar Algo Diferente</h2>
                 <div class="space-y-4 max-w-4xl">
                     <div
-                        class="flex items-start gap-4 text-xl text-text-muted p-4 border border-glass-border rounded-xl">
+                        class="flex items-start gap-8 text-xl text-text-muted p-6 border border-glass-border rounded-xl">
                         <i class="ph-fill ph-face-mask text-2xl icon-glow-red"></i>
                         <div><strong class="text-white">Dependência de desenvolvedores</strong> — Cada mudança pequena
                             precisava de alguém técnico</div>
                     </div>
                     <div
-                        class="flex items-start gap-4 text-xl text-text-muted p-4 border border-glass-border rounded-xl">
+                        class="flex items-start gap-8 text-xl text-text-muted p-6 border border-glass-border rounded-xl">
                         <i class="ph-fill ph-clock text-2xl icon-glow-red"></i>
                         <div><strong class="text-white">Horas perdidas esperando</strong> — O projeto parava enquanto
                             aguardava respostas</div>
                     </div>
                     <div
-                        class="flex items-start gap-4 text-xl text-text-muted p-4 border border-glass-border rounded-xl">
+                        class="flex items-start gap-8 text-xl text-text-muted p-6 border border-glass-border rounded-xl">
                         <i class="ph-fill ph-currency-circle-dollar text-2xl icon-glow-red"></i>
                         <div><strong class="text-white">Custos que não paravam de subir</strong> — Cada ajuste era uma
                             nova cobrança</div>
                     </div>
                     <div
-                        class="flex items-start gap-4 text-xl text-text-muted p-4 border border-glass-border rounded-xl">
+                        class="flex items-start gap-8 text-xl text-text-muted p-6 border border-glass-border rounded-xl">
                         <i class="ph-fill ph-smiley-sad text-2xl icon-glow-red"></i>
                         <div><strong class="text-white">Resultado diferente do imaginado</strong> — O que eu pedia nunca
                             saía como eu queria</div>
@@ -177,16 +190,16 @@
                     <div class="text-6xl font-bold text-accent-glow mb-4">+200 horas</div>
                     <p class="text-xl text-text-muted">testando ferramentas, métodos e abordagens diferentes</p>
                 </div>
-                <div class="grid grid-cols-3 gap-6 mt-8 max-w-3xl mx-auto">
-                    <div class="p-4 border border-red-400/30 rounded-xl">
+                <div class="grid grid-cols-3 gap-10 mt-8 max-w-6xl mx-auto">
+                    <div class="p-8 border border-red-400/30 rounded-xl">
                         <p class="text-red-400">Muitas tentativas</p>
                         <p class="text-text-muted text-sm">frustradas</p>
                     </div>
-                    <div class="p-4 border border-yellow-400/30 rounded-xl">
+                    <div class="p-8 border border-yellow-400/30 rounded-xl">
                         <p class="text-yellow-400">Quase desisti</p>
                         <p class="text-text-muted text-sm">várias vezes</p>
                     </div>
-                    <div class="p-4 border border-green-400/30 rounded-xl">
+                    <div class="p-8 border border-green-400/30 rounded-xl">
                         <p class="text-green-400">Até que...</p>
                         <p class="text-text-muted text-sm">tudo se encaixou</p>
                     </div>
@@ -197,7 +210,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Que Você Vai Conseguir">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Que Você Vai Conseguir Fazer</h2>
-                <div class="grid grid-cols-2 gap-6 max-w-4xl">
+                <div class="grid grid-cols-2 gap-10 max-w-4xl">
                     <div class="glass-card">
                         <i class="ph-fill ph-check-circle text-3xl icon-glow-green mb-3"></i>
                         <h3 class="font-bold text-xl mb-2">Criar páginas profissionais em horas</h3>
@@ -227,7 +240,7 @@
             <div class="slide-content">
                 <span class="section-label">AULA 02</span>
                 <h2 class="section-title">As Ferramentas do Método</h2>
-                <p class="text-xl text-text-muted mt-4 max-w-3xl">Três ferramentas gratuitas que trabalham juntas para
+                <p class="text-xl text-text-muted mt-4 max-w-6xl">Três ferramentas gratuitas que trabalham juntas para
                     criar um fluxo de trabalho poderoso.</p>
             </div>
         </section>
@@ -251,7 +264,7 @@
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8 text-center"><i class="ph-fill ph-brain icon-glow"></i> Por Que o
                     Antigravity é Revolucionário</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="grid grid-cols-2 gap-12 max-w-5xl mx-auto">
                     <div class="glass-card">
                         <h3 class="font-bold text-xl mb-4 text-accent-glow">IA Integrada ao Editor</h3>
                         <p class="text-text-muted">Diferente do ChatGPT, a IA vê seu projeto inteiro. Ela entende o
@@ -280,29 +293,29 @@
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-4">Stack Técnica</h2>
                 <p class="text-text-muted mb-8">(Não precisa entender agora, só saber que existe)</p>
-                <div class="grid grid-cols-5 gap-4 max-w-4xl mx-auto">
-                    <div class="glass-card py-4">
+                <div class="grid grid-cols-5 gap-12 max-w-4xl mx-auto">
+                    <div class="glass-card py-12">
                         <p class="font-bold">HTML</p>
                         <p class="text-text-muted text-sm">Estrutura</p>
                     </div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="font-bold">Tailwind</p>
                         <p class="text-text-muted text-sm">Estilos</p>
                     </div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="font-bold">JavaScript</p>
                         <p class="text-text-muted text-sm">Interação</p>
                     </div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="font-bold">GSAP</p>
                         <p class="text-text-muted text-sm">Animações</p>
                     </div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="font-bold">Three.js</p>
                         <p class="text-text-muted text-sm">Efeitos 3D</p>
                     </div>
                 </div>
-                <div class="glass-card inline-block px-8 py-4 mt-8">
+                <div class="glass-card inline-block px-8 py-12 mt-8">
                     <p class="text-xl">A IA cuida da parte técnica. <span class="text-accent-glow">Você cuida da
                             criatividade.</span></p>
                 </div>
@@ -312,20 +325,20 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Trio Essencial">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">O Trio Essencial</h2>
-                <div class="grid grid-cols-3 gap-8 max-w-4xl mx-auto">
-                    <div class="glass-card py-6">
+                <div class="grid grid-cols-3 gap-12 max-w-4xl mx-auto">
+                    <div class="glass-card py-10">
                         <i class="ph-fill ph-brain text-4xl icon-glow mb-3"></i>
                         <p class="font-bold text-xl">Antigravity</p>
                         <p class="text-text-muted text-sm mt-1">Você conversa, a IA cria</p>
                         <p class="text-green-400 font-bold mt-3">Gratuito</p>
                     </div>
-                    <div class="glass-card py-6">
+                    <div class="glass-card py-10">
                         <i class="ph-fill ph-github-logo text-4xl icon-glow mb-3"></i>
                         <p class="font-bold text-xl">GitHub</p>
                         <p class="text-text-muted text-sm mt-1">Guarda e versiona tudo</p>
                         <p class="text-green-400 font-bold mt-3">Gratuito</p>
                     </div>
-                    <div class="glass-card py-6">
+                    <div class="glass-card py-10">
                         <i class="ph-fill ph-globe text-4xl icon-glow mb-3"></i>
                         <p class="font-bold text-xl">Netlify</p>
                         <p class="text-text-muted text-sm mt-1">Publica automaticamente</p>
@@ -351,7 +364,7 @@
             <div class="slide-content">
                 <span class="section-label">AULA 03</span>
                 <h2 class="section-title">Por Que o Método Zero<br>é Diferente</h2>
-                <p class="text-xl text-text-muted mt-4 max-w-3xl">Ferramentas, template e a nova mentalidade que muda
+                <p class="text-xl text-text-muted mt-4 max-w-6xl">Ferramentas, template e a nova mentalidade que muda
                     tudo.</p>
             </div>
         </section>
@@ -360,7 +373,7 @@
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Cenário Antigo</h2>
                 <div class="space-y-4 max-w-4xl">
-                    <div class="flex items-start gap-4 text-lg p-4 border border-red-400/30 rounded-xl">
+                    <div class="flex items-start gap-12 text-lg p-8 border border-red-400/30 rounded-xl">
                         <i class="ph-fill ph-x-circle text-xl icon-glow-red"></i>
                         <div>
                             <strong class="text-white">Elementor / Wix / Squarespace</strong>
@@ -368,7 +381,7 @@
                                 Performance ruim.</p>
                         </div>
                     </div>
-                    <div class="flex items-start gap-4 text-lg p-4 border border-red-400/30 rounded-xl">
+                    <div class="flex items-start gap-12 text-lg p-8 border border-red-400/30 rounded-xl">
                         <i class="ph-fill ph-x-circle text-xl icon-glow-red"></i>
                         <div>
                             <strong class="text-white">Figma → Desenvolvedor</strong>
@@ -376,7 +389,7 @@
                                 Caro e demorado.</p>
                         </div>
                     </div>
-                    <div class="flex items-start gap-4 text-lg p-4 border border-red-400/30 rounded-xl">
+                    <div class="flex items-start gap-12 text-lg p-8 border border-red-400/30 rounded-xl">
                         <i class="ph-fill ph-x-circle text-xl icon-glow-red"></i>
                         <div>
                             <strong class="text-white">Codificar Manualmente</strong>
@@ -391,8 +404,8 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Ferramentas de IA">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">E as Ferramentas de IA?</h2>
-                <div class="grid grid-cols-3 gap-6 max-w-5xl">
-                    <div class="p-6 border border-red-400/30 rounded-xl">
+                <div class="grid grid-cols-3 gap-10 max-w-5xl">
+                    <div class="p-10 border border-red-400/30 rounded-xl">
                         <h3 class="font-bold text-red-400 text-xl mb-3">ChatGPT</h3>
                         <ul class="text-text-muted space-y-2">
                             <li>• Código solto, sem contexto</li>
@@ -401,7 +414,7 @@
                             <li>• Perde o fio da conversa</li>
                         </ul>
                     </div>
-                    <div class="p-6 border border-red-400/30 rounded-xl">
+                    <div class="p-10 border border-red-400/30 rounded-xl">
                         <h3 class="font-bold text-red-400 text-xl mb-3">Lovable / V0</h3>
                         <ul class="text-text-muted space-y-2">
                             <li>• Roleta de prompt</li>
@@ -410,7 +423,7 @@
                             <li>• Pouco controle</li>
                         </ul>
                     </div>
-                    <div class="p-6 border border-red-400/30 rounded-xl">
+                    <div class="p-10 border border-red-400/30 rounded-xl">
                         <h3 class="font-bold text-red-400 text-xl mb-3">Cursor</h3>
                         <ul class="text-text-muted space-y-2">
                             <li>• Feito para devs</li>
@@ -426,7 +439,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Método Zero">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Método Zero é Diferente</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="glass-card border-green-400/30">
                         <h3 class="font-bold text-green-400 text-xl mb-4"><i
                                 class="ph-fill ph-check-circle icon-glow-green"></i> Fluxo Integrado</h3>
@@ -458,16 +471,16 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Template">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">O Segredo: O Template</h2>
-                <div class="glass-card max-w-3xl mx-auto border-accent-glow/30">
+                <div class="glass-card max-w-6xl mx-auto border-accent-glow/30">
                     <p class="text-xl text-text-muted mb-6">Mais de <span class="text-accent-glow font-bold">200
                             horas</span> foram investidas criando um template que a IA entende perfeitamente.</p>
-                    <div class="grid grid-cols-2 gap-6 mt-6">
-                        <div class="p-4 border border-glass-border rounded-xl">
+                    <div class="grid grid-cols-2 gap-10 mt-6">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <h4 class="font-bold text-accent-glow mb-2">IAX (IA Experience)</h4>
                             <p class="text-text-muted text-sm">Código estruturado para a IA entender e modificar com
                                 precisão. Regras claras, padrões consistentes.</p>
                         </div>
-                        <div class="p-4 border border-glass-border rounded-xl">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <h4 class="font-bold text-accent-glow mb-2">UX (User Experience)</h4>
                             <p class="text-text-muted text-sm">Performance otimizada, animações suaves, responsivo.
                                 Lighthouse 95+ de fábrica.</p>
@@ -482,31 +495,31 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Antes vs Agora">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">A Complexidade Agora é da IA</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="space-y-4">
                         <h3 class="text-xl font-bold text-red-400 mb-4"><i
                                 class="ph-fill ph-x-circle icon-glow-red"></i> Antes</h3>
-                        <div class="p-4 border border-red-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-red-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer otimização?</strong><br>Precisa de dev para configurar build
                             step
                         </div>
-                        <div class="p-4 border border-red-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-red-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer animações?</strong><br>Precisa aprender GSAP ou contratar
                         </div>
-                        <div class="p-4 border border-red-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-red-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer efeitos 3D?</strong><br>Esquece, muito complexo
                         </div>
                     </div>
                     <div class="space-y-4">
                         <h3 class="text-xl font-bold text-green-400 mb-4"><i
                                 class="ph-fill ph-check-circle icon-glow-green"></i> Agora</h3>
-                        <div class="p-4 border border-green-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-green-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer otimização?</strong><br>Já vem no template
                         </div>
-                        <div class="p-4 border border-green-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-green-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer animações?</strong><br>A IA implementa
                         </div>
-                        <div class="p-4 border border-green-400/30 rounded-xl text-text-muted">
+                        <div class="p-8 border border-green-400/30 rounded-xl text-text-muted">
                             <strong class="text-white">Quer efeitos 3D?</strong><br>A IA resolve
                         </div>
                     </div>
@@ -517,7 +530,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Exemplo Concreto">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">Exemplo Concreto: Esta Apresentação</h2>
-                <div class="glass-card max-w-3xl mx-auto">
+                <div class="glass-card max-w-6xl mx-auto">
                     <p class="text-xl text-text-muted mb-6">Esta apresentação interativa que você está vendo agora foi
                         criada usando o Antigravity.</p>
                     <div class="border-t border-glass-border pt-6">
@@ -533,38 +546,38 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Pense Diferente">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Pense Diferente</h2>
-                <div class="max-w-3xl space-y-6">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="p-6 border border-red-400/30 rounded-xl">
+                <div class="max-w-6xl space-y-6">
+                    <div class="grid grid-cols-2 gap-12">
+                        <div class="p-10 border border-red-400/30 rounded-xl">
                             <p class="text-red-400 font-bold mb-2"><i class="ph-fill ph-x-circle icon-glow-red"></i> Não
                                 pense assim</p>
                             <p class="text-2xl">"Será que dá pra fazer?"</p>
                         </div>
-                        <div class="p-6 border border-green-400/30 rounded-xl">
+                        <div class="p-10 border border-green-400/30 rounded-xl">
                             <p class="text-green-400 font-bold mb-2"><i
                                     class="ph-fill ph-check-circle icon-glow-green"></i> Pense assim</p>
                             <p class="text-2xl">Provavelmente dá</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="p-6 border border-red-400/30 rounded-xl">
+                    <div class="grid grid-cols-2 gap-12">
+                        <div class="p-10 border border-red-400/30 rounded-xl">
                             <p class="text-red-400 font-bold mb-2"><i class="ph-fill ph-x-circle icon-glow-red"></i> Não
                                 pense assim</p>
                             <p class="text-2xl">"Isso é muito complexo"</p>
                         </div>
-                        <div class="p-6 border border-green-400/30 rounded-xl">
+                        <div class="p-10 border border-green-400/30 rounded-xl">
                             <p class="text-green-400 font-bold mb-2"><i
                                     class="ph-fill ph-check-circle icon-glow-green"></i> Pense assim</p>
                             <p class="text-2xl">A complexidade é problema da IA</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="p-6 border border-red-400/30 rounded-xl">
+                    <div class="grid grid-cols-2 gap-12">
+                        <div class="p-10 border border-red-400/30 rounded-xl">
                             <p class="text-red-400 font-bold mb-2"><i class="ph-fill ph-x-circle icon-glow-red"></i> Não
                                 pense assim</p>
                             <p class="text-2xl">"Preciso aprender X primeiro"</p>
                         </div>
-                        <div class="p-6 border border-green-400/30 rounded-xl">
+                        <div class="p-10 border border-green-400/30 rounded-xl">
                             <p class="text-green-400 font-bold mb-2"><i
                                     class="ph-fill ph-check-circle icon-glow-green"></i> Pense assim</p>
                             <p class="text-2xl">Descreve o que quer</p>
@@ -577,9 +590,9 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Potencial Ilimitado">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">O Potencial é Ilimitado</h2>
-                <div class="max-w-3xl mx-auto">
+                <div class="max-w-6xl mx-auto">
                     <p class="text-2xl text-text-muted mb-8">O Método Zero ensina a criar páginas...</p>
-                    <div class="glass-card border-accent-glow/30 py-8">
+                    <div class="glass-card border-accent-glow/30 py-12">
                         <p class="text-3xl font-bold text-accent-glow">...mas são os fundamentos<br>para criar qualquer
                             coisa</p>
                     </div>
@@ -590,18 +603,18 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Que Você Aprende">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Que Você Está Realmente Aprendendo</h2>
-                <div class="grid grid-cols-3 gap-6 max-w-4xl">
-                    <div class="glass-card text-center py-8">
+                <div class="grid grid-cols-3 gap-10 max-w-4xl">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-target text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Como conversar com IA</h3>
                         <p class="text-text-muted text-sm mt-2">Para obter resultados consistentes</p>
                     </div>
-                    <div class="glass-card text-center py-8">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-arrows-clockwise text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Como iterar</h3>
                         <p class="text-text-muted text-sm mt-2">Até ficar perfeito</p>
                     </div>
-                    <div class="glass-card text-center py-8">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-rocket-launch text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Como publicar</h3>
                         <p class="text-text-muted text-sm mt-2">E colocar no mundo</p>
@@ -619,7 +632,7 @@
             <div class="slide-content">
                 <span class="section-label">AULA 04</span>
                 <h2 class="section-title">O Que Vamos Criar Juntos</h2>
-                <p class="text-xl text-text-muted mt-4 max-w-3xl">Uma visão geral do projeto, do método e de como tudo
+                <p class="text-xl text-text-muted mt-4 max-w-6xl">Uma visão geral do projeto, do método e de como tudo
                     se conecta.</p>
             </div>
         </section>
@@ -627,26 +640,26 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Os 4 Pilares">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">Os 4 Pilares do Método</h2>
-                <div class="flex justify-center items-center gap-4 max-w-4xl mx-auto">
-                    <div class="glass-card px-8 py-6 text-center">
+                <div class="flex justify-center items-center gap-12 max-w-4xl mx-auto">
+                    <div class="glass-card px-8 py-10 text-center">
                         <i class="ph-fill ph-lightbulb text-2xl icon-glow mb-2"></i>
                         <p class="font-bold">IDEIA</p>
                         <p class="text-text-muted text-sm">O que você quer criar</p>
                     </div>
                     <span class="text-3xl text-accent-glow">→</span>
-                    <div class="glass-card px-8 py-6 text-center">
+                    <div class="glass-card px-8 py-10 text-center">
                         <i class="ph-fill ph-wrench text-2xl icon-glow mb-2"></i>
                         <p class="font-bold">CRIAÇÃO</p>
                         <p class="text-text-muted text-sm">A IA transforma em realidade</p>
                     </div>
                     <span class="text-3xl text-accent-glow">→</span>
-                    <div class="glass-card px-8 py-6 text-center">
+                    <div class="glass-card px-8 py-10 text-center">
                         <i class="ph-fill ph-sparkle text-2xl icon-glow mb-2"></i>
                         <p class="font-bold">OTIMIZAÇÃO</p>
                         <p class="text-text-muted text-sm">Refinamos até ficar perfeito</p>
                     </div>
                     <span class="text-3xl text-accent-glow">→</span>
-                    <div class="glass-card px-8 py-6 text-center border-green-400/30">
+                    <div class="glass-card px-8 py-10 text-center border-green-400/30">
                         <i class="ph-fill ph-globe text-2xl icon-glow mb-2"></i>
                         <p class="font-bold text-green-400">PUBLICAÇÃO</p>
                         <p class="text-text-muted text-sm">Colocamos no ar</p>
@@ -659,43 +672,43 @@
             <div class="slide-content">
                 <h2 class="text-3xl font-bold text-center mb-8">As 10 Etapas do Método</h2>
                 <div class="grid grid-cols-5 gap-3 max-w-5xl mx-auto text-sm">
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">1</span>
                         <p class="mt-2">Geração da Copy</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">2</span>
                         <p class="mt-2">3 Versões de Layout</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">3</span>
                         <p class="mt-2">Página Completa</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">4</span>
                         <p class="mt-2">Ajustes de Copy</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">5</span>
                         <p class="mt-2">Ajustes de Layout</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">6</span>
                         <p class="mt-2">Animações</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">7</span>
                         <p class="mt-2">Refinar Animações</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">8</span>
                         <p class="mt-2">Mobile</p>
                     </div>
-                    <div class="glass-card text-center p-4">
+                    <div class="glass-card text-center p-8">
                         <span class="block text-2xl font-bold text-accent-glow">9</span>
                         <p class="mt-2">Performance</p>
                     </div>
-                    <div class="glass-card text-center p-4 border-green-400/30">
+                    <div class="glass-card text-center p-8 border-green-400/30">
                         <span class="block text-2xl font-bold text-green-400">03</span>
                         <p class="mt-2">Publicar <i class="ph-fill ph-confetti icon-glow-green"></i></p>
                     </div>
@@ -707,27 +720,27 @@
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">O Ecossistema</h2>
                 <div class="max-w-md mx-auto space-y-4">
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="text-xl font-bold"><i class="ph-fill ph-user icon-glow"></i> VOCÊ</p>
                         <p class="text-text-muted">descreve o que quer</p>
                     </div>
                     <div class="text-2xl text-accent-glow">↓</div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="text-xl font-bold"><i class="ph-fill ph-brain icon-glow"></i> ANTIGRAVITY</p>
                         <p class="text-text-muted">cria o código</p>
                     </div>
                     <div class="text-2xl text-accent-glow">↓</div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="text-xl font-bold"><i class="ph-fill ph-floppy-disk icon-glow"></i> GITHUB</p>
                         <p class="text-text-muted">armazena e versiona</p>
                     </div>
                     <div class="text-2xl text-accent-glow">↓</div>
-                    <div class="glass-card py-4">
+                    <div class="glass-card py-12">
                         <p class="text-xl font-bold"><i class="ph-fill ph-globe icon-glow"></i> NETLIFY</p>
                         <p class="text-text-muted">publica automaticamente</p>
                     </div>
                     <div class="text-2xl text-accent-glow">↓</div>
-                    <div class="glass-card py-4 border-green-400/30">
+                    <div class="glass-card py-12 border-green-400/30">
                         <p class="text-xl font-bold text-green-400"><i
                                 class="ph-fill ph-globe-hemisphere-west icon-glow-green"></i> MUNDO</p>
                         <p class="text-text-muted">acessa seu site</p>
@@ -740,7 +753,7 @@
             <div class="slide-content text-center">
                 <span class="section-label">AULA 05</span>
                 <h2 class="section-title">Demo Express</h2>
-                <p class="text-xl text-text-muted mt-4 max-w-3xl mx-auto">Uma demonstração rápida do fluxo completo.
+                <p class="text-xl text-text-muted mt-4 max-w-6xl mx-auto">Uma demonstração rápida do fluxo completo.
                     Vamos criar uma página para o próprio curso Método Zero.</p>
             </div>
         </section>
@@ -748,16 +761,16 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Passo 1: Antigravity">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Passo 1: Baixar e Abrir o Antigravity</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="glass-card">
-                        <div class="flex items-center gap-4 mb-4">
+                        <div class="flex items-center gap-12 mb-4">
                             <i class="ph-fill ph-download text-3xl icon-glow"></i>
                             <h3 class="font-bold text-xl">Download</h3>
                         </div>
                         <p class="text-text-muted">Baixar o Antigravity do site oficial e instalar no computador.</p>
                     </div>
                     <div class="glass-card">
-                        <div class="flex items-center gap-4 mb-4">
+                        <div class="flex items-center gap-12 mb-4">
                             <i class="ph-fill ph-google-logo text-3xl icon-glow"></i>
                             <h3 class="font-bold text-xl">Login com Google</h3>
                         </div>
@@ -770,18 +783,18 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Passo 2: Template">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Passo 2: Baixar o Template Método Zero</h2>
-                <div class="grid grid-cols-3 gap-6 max-w-4xl">
-                    <div class="glass-card text-center py-6">
+                <div class="grid grid-cols-3 gap-10 max-w-4xl">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-file-zip text-4xl icon-glow mb-3"></i>
                         <h3 class="font-bold">1. Baixar</h3>
                         <p class="text-text-muted text-sm mt-2">Download do template .zip</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-folder-open text-4xl icon-glow mb-3"></i>
                         <h3 class="font-bold">2. Descompactar</h3>
                         <p class="text-text-muted text-sm mt-2">Extrair a pasta do projeto</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-folder-simple-plus text-4xl icon-glow mb-3"></i>
                         <h3 class="font-bold">3. Abrir no Antigravity</h3>
                         <p class="text-text-muted text-sm mt-2">File → Open Folder</p>
@@ -793,8 +806,8 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Passo 3: Instructions">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Passo 3: Iniciar o Projeto</h2>
-                <div class="glass-card max-w-3xl mx-auto">
-                    <div class="flex items-center gap-4 mb-6">
+                <div class="glass-card max-w-6xl mx-auto">
+                    <div class="flex items-center gap-12 mb-6">
                         <i class="ph-fill ph-file-text text-4xl icon-glow"></i>
                         <div>
                             <h3 class="font-bold text-xl">INSTRUCTIONS.md</h3>
@@ -803,7 +816,7 @@
                     </div>
                     <div class="border-t border-glass-border pt-6">
                         <p class="text-lg mb-4">Arraste o arquivo para o chat e diga:</p>
-                        <div class="bg-black/50 rounded-xl p-4 font-mono text-accent-glow">
+                        <div class="bg-black/50 rounded-xl p-8 font-mono text-accent-glow">
                             "Leia este arquivo e me ajude a criar uma landing page para o curso Método Zero"
                         </div>
                     </div>
@@ -814,22 +827,22 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Passo 4: Criar">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Passo 4: A IA Cria a Página</h2>
-                <div class="space-y-4 max-w-3xl mx-auto">
-                    <div class="glass-card flex items-center gap-4">
+                <div class="space-y-4 max-w-6xl mx-auto">
+                    <div class="glass-card flex items-center gap-12">
                         <span class="text-2xl font-bold text-accent-glow">1</span>
                         <div>
                             <h3 class="font-bold">A IA faz perguntas sobre o projeto</h3>
                             <p class="text-text-muted text-sm">Copy, público, estilo visual...</p>
                         </div>
                     </div>
-                    <div class="glass-card flex items-center gap-4">
+                    <div class="glass-card flex items-center gap-12">
                         <span class="text-2xl font-bold text-accent-glow">2</span>
                         <div>
                             <h3 class="font-bold">Gera 3 versões de layout</h3>
                             <p class="text-text-muted text-sm">Você escolhe a que mais gosta</p>
                         </div>
                     </div>
-                    <div class="glass-card flex items-center gap-4">
+                    <div class="glass-card flex items-center gap-12">
                         <span class="text-2xl font-bold text-accent-glow">3</span>
                         <div>
                             <h3 class="font-bold">Desenvolve a página completa</h3>
@@ -843,17 +856,17 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Passo 5: Ajustar">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Passo 5: Ajustar Conversando</h2>
-                <div class="grid grid-cols-2 gap-6 max-w-4xl mx-auto">
-                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                <div class="grid grid-cols-2 gap-10 max-w-4xl mx-auto">
+                    <div class="bg-black/50 rounded-xl p-10 font-mono">
                         <p class="text-accent-glow">"Muda a cor principal para roxo"</p>
                     </div>
-                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                    <div class="bg-black/50 rounded-xl p-10 font-mono">
                         <p class="text-accent-glow">"Aumenta o tamanho do título"</p>
                     </div>
-                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                    <div class="bg-black/50 rounded-xl p-10 font-mono">
                         <p class="text-accent-glow">"Adiciona uma seção de depoimentos"</p>
                     </div>
-                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                    <div class="bg-black/50 rounded-xl p-10 font-mono">
                         <p class="text-accent-glow">"Coloca animação no botão"</p>
                     </div>
                 </div>
@@ -881,7 +894,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 02">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">02</span>
                 </div>
                 <h2 class="section-title">Configurando<br>Seu Ambiente</h2>
@@ -894,23 +907,23 @@
             <div class="slide-content">
                 <span class="section-label">AULA 2.1</span>
                 <h2 class="section-title">Criando Suas Contas</h2>
-                <div class="grid grid-cols-3 gap-8 mt-8 max-w-4xl">
-                    <div class="glass-card text-center py-8">
-                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                <div class="grid grid-cols-3 gap-12 mt-8 max-w-4xl">
+                    <div class="glass-card text-center py-12">
+                        <div class="w-24 h-24 bg-white rounded-full mx-auto mb-4 p-3">
                             <img src="./src/images/antigravity-logo.png" alt="" class="w-full h-full object-contain">
                         </div>
                         <h3 class="font-bold">Antigravity</h3>
                         <p class="text-text-muted text-sm mt-2">Login com Google</p>
                     </div>
-                    <div class="glass-card text-center py-8">
-                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                    <div class="glass-card text-center py-12">
+                        <div class="w-24 h-24 bg-white rounded-full mx-auto mb-4 p-3">
                             <img src="./src/images/github-logo.png" alt="" class="w-full h-full object-contain">
                         </div>
                         <h3 class="font-bold">GitHub</h3>
                         <p class="text-text-muted text-sm mt-2">Criar conta + verificar email</p>
                     </div>
-                    <div class="glass-card text-center py-8">
-                        <div class="w-16 h-16 bg-white rounded-full mx-auto mb-4 p-3">
+                    <div class="glass-card text-center py-12">
+                        <div class="w-24 h-24 bg-white rounded-full mx-auto mb-4 p-3">
                             <img src="./src/images/netlify-logo.png" alt="" class="w-full h-full object-contain">
                         </div>
                         <h3 class="font-bold">Netlify</h3>
@@ -933,23 +946,23 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Interface">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Tour Pela Interface</h2>
-                <div class="grid grid-cols-4 gap-4 max-w-4xl">
-                    <div class="glass-card text-center py-6">
+                <div class="grid grid-cols-4 gap-12 max-w-4xl">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-folder text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Explorer</h3>
                         <p class="text-text-muted text-sm">Arquivos do projeto</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-note-pencil text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Editor</h3>
                         <p class="text-text-muted text-sm">Onde o código aparece</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-eye text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Preview</h3>
                         <p class="text-text-muted text-sm">Resultado visual</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-chat-dots text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Chat IA</h3>
                         <p class="text-text-muted text-sm">Onde você conversa</p>
@@ -961,22 +974,22 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Configurações">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Configurações Obrigatórias</h2>
-                <div class="space-y-4 max-w-3xl">
-                    <div class="flex items-center gap-4 p-4 border border-green-400/30 rounded-xl">
+                <div class="space-y-4 max-w-6xl">
+                    <div class="flex items-center gap-12 p-8 border border-green-400/30 rounded-xl">
                         <i class="ph-fill ph-check-circle text-2xl icon-glow-green"></i>
                         <div>
                             <strong class="text-lg">Always Proceed</strong>
                             <p class="text-text-muted">A IA trabalha sem ficar perguntando "posso fazer isso?"</p>
                         </div>
                     </div>
-                    <div class="flex items-center gap-4 p-4 border border-green-400/30 rounded-xl">
+                    <div class="flex items-center gap-12 p-8 border border-green-400/30 rounded-xl">
                         <i class="ph-fill ph-check-circle text-2xl icon-glow-green"></i>
                         <div>
                             <strong class="text-lg">Acesso a outras pastas</strong>
                             <p class="text-text-muted">Para manipular imagens e arquivos externos</p>
                         </div>
                     </div>
-                    <div class="flex items-center gap-4 p-4 border border-red-400/30 rounded-xl">
+                    <div class="flex items-center gap-12 p-8 border border-red-400/30 rounded-xl">
                         <i class="ph-fill ph-x-circle text-2xl icon-glow-red"></i>
                         <div>
                             <strong class="text-lg">Acesso ao navegador</strong>
@@ -992,7 +1005,7 @@
                 <h2 class="text-3xl font-bold mb-8">Criando as Rules</h2>
                 <p class="text-text-muted mb-6">Instruções permanentes para a IA seguir. Evitam repetir os mesmos
                     comandos toda vez.</p>
-                <div class="bg-black/50 rounded-xl p-6 font-mono text-sm max-w-3xl">
+                <div class="bg-black/50 rounded-xl p-10 font-mono text-sm max-w-6xl">
                     <p class="text-green-400 mb-2">// Cole nas Rules do Antigravity:</p>
                     <p class="text-text-muted mb-1">Sempre responda em Português do Brasil.</p>
                     <p class="text-text-muted mb-1">Use HTML + Tailwind CSS via CLI (não CDN).</p>
@@ -1017,8 +1030,8 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Estrutura de Pastas">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Estrutura de Pastas</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
-                    <div class="font-mono text-lg bg-black/40 p-6 rounded-xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
+                    <div class="font-mono text-lg bg-black/40 p-10 rounded-xl">
                         <p class="text-accent-glow font-bold">src/ <span class="text-text-muted text-sm font-normal">←
                                 EDITAR AQUI</span></p>
                         <p class="pl-4 text-text-muted">├── index.html</p>
@@ -1049,7 +1062,7 @@
                     <p class="text-text-muted mb-2"># Iniciar servidor local</p>
                     <p class="text-green-400 text-2xl mb-4">$ npm run dev</p>
                 </div>
-                <div class="glass-card inline-block px-8 py-4 mt-8">
+                <div class="glass-card inline-block px-8 py-12 mt-8">
                     <p class="text-xl">Acessar: <span class="text-accent-glow font-mono">localhost:8888</span></p>
                 </div>
             </div>
@@ -1061,7 +1074,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 03">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">03</span>
                 </div>
                 <h2 class="section-title">Criando Sua<br>Primeira Página</h2>
@@ -1081,7 +1094,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="O Que Definir">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Que Você Precisa Definir</h2>
-                <div class="grid grid-cols-2 gap-6 max-w-4xl">
+                <div class="grid grid-cols-2 gap-10 max-w-4xl">
                     <div class="glass-card">
                         <h3 class="font-bold text-xl mb-3"><i class="ph-fill ph-target icon-glow"></i> O que você vende?
                         </h3>
@@ -1114,8 +1127,8 @@
         <!-- 3.2 Gerando a Copy -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 02 (Etapa 1)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">1</span>
                     </div>
                     <div>
@@ -1130,36 +1143,36 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Estrutura de LP">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Estrutura de uma Landing Page Eficaz</h2>
-                <div class="grid grid-cols-2 gap-4 max-w-4xl">
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">1</span>
                         <div><strong>Hero</strong> — Headline + subheadline + CTA</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">2</span>
                         <div><strong>Problema</strong> — A dor do seu público</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">3</span>
                         <div><strong>Solução</strong> — O que você oferece</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">4</span>
                         <div><strong>Benefícios</strong> — O que o cliente ganha</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">5</span>
                         <div><strong>Como Funciona</strong> — O processo</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">6</span>
                         <div><strong>Prova Social</strong> — Depoimentos, números</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">7</span>
                         <div><strong>FAQ</strong> — Dúvidas comuns</div>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl flex items-center gap-4">
+                    <div class="p-8 border border-glass-border rounded-xl flex items-center gap-12">
                         <span class="text-accent-glow font-bold text-xl">8</span>
                         <div><strong>CTA Final</strong> — Chamada para ação</div>
                     </div>
@@ -1170,7 +1183,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Commit Copy">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">💾 Commit</h2>
-                <div class="bg-black/50 rounded-xl p-6 font-mono max-w-md mx-auto">
+                <div class="bg-black/50 rounded-xl p-10 font-mono max-w-md mx-auto">
                     <p class="text-green-400 text-xl">git commit -m "copy inicial"</p>
                 </div>
                 <p class="text-text-muted mt-6">Sempre salve seu progresso antes de continuar.</p>
@@ -1180,8 +1193,8 @@
         <!-- 3.3 Escolhendo o Estilo Visual -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 03 (Etapa 2)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">2</span>
                     </div>
                     <div>
@@ -1196,18 +1209,18 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="3 Versões">
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">Pedindo 3 Versões</h2>
-                <div class="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
-                    <div class="glass-card py-8">
+                <div class="grid grid-cols-3 gap-10 max-w-4xl mx-auto">
+                    <div class="glass-card py-12">
                         <h3 class="font-bold text-xl mb-2">Versão A</h3>
                         <p class="text-accent-glow">Clean / Minimalista</p>
                         <p class="text-text-muted text-sm mt-2">Muito espaço em branco, foco no texto</p>
                     </div>
-                    <div class="glass-card py-8">
+                    <div class="glass-card py-12">
                         <h3 class="font-bold text-xl mb-2">Versão B</h3>
                         <p class="text-accent-glow">Visual / Impactante</p>
                         <p class="text-text-muted text-sm mt-2">Cores fortes, imagens grandes, movimento</p>
                     </div>
-                    <div class="glass-card py-8">
+                    <div class="glass-card py-12">
                         <h3 class="font-bold text-xl mb-2">Versão C</h3>
                         <p class="text-accent-glow">Informativa / Completa</p>
                         <p class="text-text-muted text-sm mt-2">Mais seções, mais detalhes, mais prova</p>
@@ -1220,8 +1233,8 @@
         <!-- 3.4 Construindo a Página Completa -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 04 (Etapa 3)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">3</span>
                     </div>
                     <div>
@@ -1236,8 +1249,8 @@
         <!-- 3.5 Refinando Copy e Layout -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 04 (Etapas 4-5)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-lg font-bold text-accent-glow">4-5</span>
                     </div>
                     <div>
@@ -1251,7 +1264,7 @@
 
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Atenção Copy">
             <div class="slide-content">
-                <div class="glass-card border-yellow-400/30 max-w-3xl">
+                <div class="glass-card border-yellow-400/30 max-w-6xl">
                     <h3 class="font-bold text-yellow-400 text-xl mb-4"><i
                             class="ph-fill ph-warning icon-glow-yellow"></i> Atenção com a Copy</h3>
                     <p class="text-lg text-text-muted mb-4">A IA pode cortar ou simplificar seu texto sem avisar.</p>
@@ -1267,7 +1280,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Pasta Inserir">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Adicionando Imagens</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="glass-card">
                         <h3 class="font-bold text-xl mb-4">Técnica da Pasta "inserir"</h3>
                         <ol class="space-y-2 text-text-muted">
@@ -1291,7 +1304,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 04">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">04</span>
                 </div>
                 <h2 class="section-title">Dando Vida<br>à Página</h2>
@@ -1302,8 +1315,8 @@
         <!-- 4.1 Adicionando Animações -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 01 (Etapa 6)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">6</span>
                     </div>
                     <div>
@@ -1318,23 +1331,23 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Tipos de Animação">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Tipos de Animação</h2>
-                <div class="grid grid-cols-4 gap-4 max-w-4xl">
-                    <div class="glass-card text-center py-6">
+                <div class="grid grid-cols-4 gap-12 max-w-4xl">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-arrow-up text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Fade-up</h3>
                         <p class="text-text-muted text-sm">Cards, seções</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-arrows-counter-clockwise text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Stagger</h3>
                         <p class="text-text-muted text-sm">Listas, grids</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-circle-half text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Reveal</h3>
                         <p class="text-text-muted text-sm">Imagens</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-cursor-click text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Hover</h3>
                         <p class="text-text-muted text-sm">Botões, links</p>
@@ -1345,12 +1358,12 @@
 
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Regra do Hero">
             <div class="slide-content text-center">
-                <div class="glass-card border-red-400/30 max-w-3xl mx-auto">
+                <div class="glass-card border-red-400/30 max-w-6xl mx-auto">
                     <h2 class="text-3xl font-bold text-red-400 mb-6"><i class="ph-fill ph-warning icon-glow-yellow"></i>
                         Regra de Ouro: Hero Estático</h2>
                     <p class="text-xl text-text-muted mb-6">O Hero NUNCA deve ter animações de <strong
                             class="text-white">entrada</strong>.</p>
-                    <div class="grid grid-cols-2 gap-6 text-left">
+                    <div class="grid grid-cols-2 gap-10 text-left">
                         <div>
                             <p class="text-red-400 font-bold mb-2">❌ Proibido no Hero</p>
                             <ul class="text-text-muted space-y-1">
@@ -1376,8 +1389,8 @@
         <!-- 4.2 Refinando as Animações -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 02 (Etapa 7)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">7</span>
                     </div>
                     <div>
@@ -1385,18 +1398,18 @@
                         <h2 class="text-3xl font-bold">Refinando as Animações</h2>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-6 max-w-3xl mt-8">
-                    <div class="glass-card text-center py-6">
+                <div class="grid grid-cols-3 gap-10 max-w-6xl mt-8">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-timer text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Timing</h3>
                         <p class="text-text-muted text-sm">Mais rápido ou lento</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-target text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Easing</h3>
                         <p class="text-text-muted text-sm">Mais suave ou dramático</p>
                     </div>
-                    <div class="glass-card text-center py-6">
+                    <div class="glass-card text-center py-10">
                         <i class="ph-fill ph-scissors text-3xl icon-glow mb-3"></i>
                         <h3 class="font-bold">Remover</h3>
                         <p class="text-text-muted text-sm">Excessos que distraem</p>
@@ -1408,8 +1421,8 @@
         <!-- 4.3 Otimizando para Mobile -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 03 (Etapa 8)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">8</span>
                     </div>
                     <div>
@@ -1424,8 +1437,8 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Testar no Celular">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Testando no Celular Real</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
-                    <div class="bg-black/50 rounded-xl p-6 font-mono">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
+                    <div class="bg-black/50 rounded-xl p-10 font-mono">
                         <p class="text-text-muted mb-2"># Descobrir seu IP local</p>
                         <p class="text-green-400 mb-4">Pedir ao Antigravity</p>
                         <p class="text-text-muted mb-2"># Acessar no celular</p>
@@ -1446,20 +1459,20 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Problemas Mobile">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Problemas Comuns no Mobile</h2>
-                <div class="grid grid-cols-2 gap-4 max-w-4xl">
-                    <div class="p-4 border border-glass-border rounded-xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
+                    <div class="p-8 border border-glass-border rounded-xl">
                         <p class="font-bold mb-2">Texto muito pequeno</p>
                         <p class="text-text-muted text-sm">→ Aumentar font-size</p>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl">
+                    <div class="p-8 border border-glass-border rounded-xl">
                         <p class="font-bold mb-2">Botão difícil de clicar</p>
                         <p class="text-text-muted text-sm">→ Aumentar padding</p>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl">
+                    <div class="p-8 border border-glass-border rounded-xl">
                         <p class="font-bold mb-2">Imagem cortada</p>
                         <p class="text-text-muted text-sm">→ Ajustar aspect-ratio</p>
                     </div>
-                    <div class="p-4 border border-glass-border rounded-xl">
+                    <div class="p-8 border border-glass-border rounded-xl">
                         <p class="font-bold mb-2">Scroll horizontal</p>
                         <p class="text-text-muted text-sm">→ max-width: 100%</p>
                     </div>
@@ -1473,7 +1486,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 05">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">05</span>
                 </div>
                 <h2 class="section-title">Publicando</h2>
@@ -1484,8 +1497,8 @@
         <!-- 5.1 Otimização de Performance -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 01 (Etapa 9)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-accent-glow/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-accent-glow">9</span>
                     </div>
                     <div>
@@ -1500,7 +1513,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Checklist">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Checklist Pré-Publicação</h2>
-                <div class="grid grid-cols-2 gap-4 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="p-3 border border-glass-border rounded-xl flex items-center gap-3">
                         <i class="ph-fill ph-square icon-glow-green"></i>
                         <span>Hero sem animações de entrada</span>
@@ -1526,7 +1539,7 @@
                         <span>Scripts com defer</span>
                     </div>
                 </div>
-                <div class="glass-card inline-block px-8 py-4 mt-8">
+                <div class="glass-card inline-block px-8 py-12 mt-8">
                     <p class="text-xl">Meta: <span class="text-green-400 font-bold">Lighthouse 95+</span></p>
                 </div>
             </div>
@@ -1535,8 +1548,8 @@
         <!-- 5.2 e 5.3 Deploy -->
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aula 02 (Etapa 10)">
             <div class="slide-content">
-                <div class="flex items-center gap-4 mb-6">
-                    <div class="w-12 h-12 rounded-full bg-green-400/20 flex items-center justify-center">
+                <div class="flex items-center gap-12 mb-6">
+                    <div class="w-32 h-32 rounded-full bg-green-400/20 flex items-center justify-center">
                         <span class="text-xl font-bold text-green-400">03</span>
                     </div>
                     <div>
@@ -1562,18 +1575,18 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Deploy Netlify">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Deploy na Netlify</h2>
-                <div class="grid grid-cols-2 gap-8 max-w-4xl">
+                <div class="grid grid-cols-2 gap-12 max-w-4xl">
                     <div class="space-y-4">
-                        <div class="p-4 border border-glass-border rounded-xl">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <span class="text-accent-glow font-bold">1.</span> Add new project
                         </div>
-                        <div class="p-4 border border-glass-border rounded-xl">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <span class="text-accent-glow font-bold">2.</span> Import from Git → GitHub
                         </div>
-                        <div class="p-4 border border-glass-border rounded-xl">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <span class="text-accent-glow font-bold">3.</span> Selecionar repositório
                         </div>
-                        <div class="p-4 border border-glass-border rounded-xl">
+                        <div class="p-8 border border-glass-border rounded-xl">
                             <span class="text-accent-glow font-bold">4.</span> Deploy!
                         </div>
                     </div>
@@ -1605,7 +1618,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 06">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">06</span>
                 </div>
                 <h2 class="section-title">Dominando<br>as Ferramentas</h2>
@@ -1616,28 +1629,28 @@
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aulas">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">O Que Vamos Aprofundar</h2>
-                <div class="grid grid-cols-3 gap-6 max-w-4xl">
-                    <div class="glass-card text-center py-8">
+                <div class="grid grid-cols-3 gap-10 max-w-4xl">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-brain text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Antigravity Avançado</h3>
                         <p class="text-text-muted text-sm mt-2">Workspaces, contexto, outras IAs</p>
                     </div>
-                    <div class="glass-card text-center py-8">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-floppy-disk text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">GitHub Avançado</h3>
                         <p class="text-text-muted text-sm mt-2">Commits, histórico, branches</p>
                     </div>
-                    <div class="glass-card text-center py-8">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-globe text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Netlify Avançado</h3>
                         <p class="text-text-muted text-sm mt-2">Deploys, previews, rollback</p>
                     </div>
-                    <div class="glass-card text-center py-8">
+                    <div class="glass-card text-center py-12">
                         <i class="ph-fill ph-desktop text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Ambiente Local</h3>
                         <p class="text-text-muted text-sm mt-2">Hot reload, testes</p>
                     </div>
-                    <div class="glass-card text-center py-8 col-span-2">
+                    <div class="glass-card text-center py-12 col-span-2">
                         <i class="ph-fill ph-gear text-4xl icon-glow mb-4"></i>
                         <h3 class="font-bold text-lg">Troubleshooting</h3>
                         <p class="text-text-muted text-sm mt-2">Problemas comuns e como resolver</p>
@@ -1652,7 +1665,7 @@
 
         <section class="slide" data-sidebar-level="module" data-sidebar-label="Módulo 07">
             <div class="slide-content text-center">
-                <div class="w-20 h-20 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
+                <div class="w-32 h-32 rounded-full bg-accent-glow/20 flex items-center justify-center mx-auto mb-8">
                     <span class="text-3xl font-bold text-accent-glow">07</span>
                 </div>
                 <h2 class="section-title">Recursos Avançados</h2>
@@ -1663,7 +1676,7 @@
         <section class="slide" data-sidebar-level="lesson" data-sidebar-label="Aulas">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold mb-8">Para Quando Quiser Ir Além</h2>
-                <div class="grid grid-cols-2 gap-6 max-w-4xl">
+                <div class="grid grid-cols-2 gap-10 max-w-4xl">
                     <div class="glass-card">
                         <h3 class="font-bold text-xl mb-3"><i class="ph-fill ph-files icon-glow"></i> Múltiplas Páginas
                         </h3>
@@ -1701,36 +1714,36 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Recapitulação">
             <div class="slide-content">
                 <h2 class="text-3xl font-bold text-center mb-8">O Que Você Aprendeu</h2>
-                <div class="grid grid-cols-4 gap-4 max-w-5xl mx-auto text-sm">
-                    <div class="glass-card text-center py-4">
+                <div class="grid grid-cols-4 gap-12 max-w-5xl mx-auto text-sm">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Mentalidade e potencial</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Configurar ambiente</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Criar páginas</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Animações e mobile</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Publicar</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Dominar ferramentas</p>
                     </div>
-                    <div class="glass-card text-center py-4">
+                    <div class="glass-card text-center py-12">
                         <span class="text-accent-glow font-bold">01</span>
                         <p class="mt-2">Ir além</p>
                     </div>
-                    <div class="glass-card text-center py-4 border-green-400/30">
+                    <div class="glass-card text-center py-12 border-green-400/30">
                         <span class="text-green-400 font-bold">∞</span>
                         <p class="mt-2">Criar qualquer coisa</p>
                     </div>
@@ -1742,23 +1755,23 @@
             <div class="slide-content text-center">
                 <h2 class="text-3xl font-bold mb-8">Seus Próximos Passos</h2>
                 <div class="max-w-md mx-auto space-y-4">
-                    <div class="glass-card py-4 flex items-center gap-4 px-6">
+                    <div class="glass-card py-12 flex items-center gap-12 px-6">
                         <span class="text-accent-glow font-bold text-xl">1</span>
                         <p class="text-left">🎯 Escolha seu primeiro projeto</p>
                     </div>
-                    <div class="glass-card py-4 flex items-center gap-4 px-6">
+                    <div class="glass-card py-12 flex items-center gap-12 px-6">
                         <span class="text-accent-glow font-bold text-xl">2</span>
                         <p class="text-left">📝 Defina o briefing</p>
                     </div>
-                    <div class="glass-card py-4 flex items-center gap-4 px-6">
+                    <div class="glass-card py-12 flex items-center gap-12 px-6">
                         <span class="text-accent-glow font-bold text-xl">3</span>
                         <p class="text-left">🚀 Execute o método</p>
                     </div>
-                    <div class="glass-card py-4 flex items-center gap-4 px-6">
+                    <div class="glass-card py-12 flex items-center gap-12 px-6">
                         <span class="text-accent-glow font-bold text-xl">4</span>
                         <p class="text-left">🌐 Coloque no ar</p>
                     </div>
-                    <div class="glass-card py-4 flex items-center gap-4 px-6 border-green-400/30">
+                    <div class="glass-card py-12 flex items-center gap-12 px-6 border-green-400/30">
                         <span class="text-green-400 font-bold text-xl">5</span>
                         <p class="text-left">🔄 Repita</p>
                     </div>
@@ -1769,7 +1782,7 @@
         <section class="slide" data-sidebar-level="slide" data-sidebar-label="Obrigado">
             <div class="slide-content text-center">
                 <h2 class="text-5xl font-bold mb-8">Obrigado!</h2>
-                <div class="glass-card inline-block px-12 py-8 max-w-2xl">
+                <div class="glass-card inline-block px-12 py-12 max-w-2xl">
                     <p class="text-xl text-text-muted leading-relaxed">
                         Com as ferramentas certas e o processo certo,<br>
                         <span class="text-white">qualquer pessoa pode criar páginas profissionais</span> —<br>
